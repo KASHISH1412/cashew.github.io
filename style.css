@@ -1,0 +1,241 @@
+*{
+   margin:0; 
+   font-family:Arial;
+   border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    height:50px;
+    width:100px;
+}
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+.add-first{
+    color:#cccccc;
+   font-size:0.85rem ;
+   margin-left:15px;
+}
+.add-sec{
+    font-size:1rem;
+    color:white;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.pl-icon{
+    background-color: #febd68;
+    color:black;
+    height:40px;
+    width:45px;
+    align-items: center;
+    /* align-content: center; */
+    display:flex;
+    justify-content: center;
+    font-size:1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+} 
+.nav-search{
+    display:flex;
+    background-color: white;
+    height:40px;
+    width:700px;
+    border-radius:10px;
+    justify-content:space-evenly;
+
+}   
+.nav-search:hover{
+    border-color: #febd68;
+    border-radius: 10px;
+    border-style: solid;
+    
+}
+.search-select{
+    width:40px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.select-lang{
+   
+    color:white;
+    height: 20px;
+    width:50px;
+    background-color: #0f1111;
+    color:white;
+    
+}
+.lang-logo{
+    background-image: url("indiaflag.jpg");
+    height:20px;
+    width:50px;
+    display:flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.select-language{
+   
+    height: 60px;
+    width:80px;
+    display:flex;
+    align-items:end ;
+    margin-bottom: 20px;
+    
+}
+option{
+    background-color: #0f1111;
+    /* border:#0f1111; */
+    border: none;
+}
+.hello{
+    font-size:0.7rem;
+
+}
+.account{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.Cart{
+    font-size: 0.9rem;
+}
+.nav-cart{
+    display:flex;
+    align-items: end;
+}
+.nav-cart i{
+    font-size: 1.5rem;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.opt{
+    display:flex;
+    width: 50%;
+    margin-right:20px;
+    justify-content: space-evenly;
+    
+}
+.panel-deals{
+    display: flex;
+    justify-content:end;
+    width:45%
+}
+.hero{
+    background-image: url("hero.jpg");
+    height:380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    
+}
+.hero-msg{
+    background-color: white;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+    width:90%;
+    margin-bottom:20px;
+}
+.hero-msg a{
+    color:#007185;
+}
+.box{
+    /* border: 2px solid black; */
+    height:450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(116, 170, 116);
+    flex-wrap: wrap;
+}
+.box-img{
+    height:350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
+}
+.box-content{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content p{
+    color:#007185;
+}
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    height:70px;
+    border: 1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
